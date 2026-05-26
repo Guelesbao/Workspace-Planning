@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1590365_worksp_0.WorkspacePlanningUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>WorkspacePlanningUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var WorkspacePlanningUtils = Class.create();
+WorkspacePlanningUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getElegibleManagers: function () {
+		var excludedManagers = [];
+		var gaBase = new GlideAggregate('x_1590365_worksp_0_office_base');
+		gaBase.addAggregate('COUNT');
+		gaBase.groupBy('manager');
+		gaBase.query();
+
+		while (gaBase.next()) {
+			var count = Number(gaBase.getAggregate('COUNT'));
+
+			if (count >= 1) {
+				excludedManagers.push(gaBase.getValue('manager'));
+			}
+		}
+		var role = 'x_1590365_worksp_0.base_manager';
+		var query = "roles=" + role;
+
+		if (excludedManagers.length > 0) {
+			query += "^sys_idNOT IN" + excludedManagers.join(",");
+		}
+
+		return query;
+	},
+
+	type: 'WorkspacePlanningUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:06:14</sys_created_on>
+        <sys_id>ec996982c38187904a9d563ed4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkspacePlanningUtils</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_script_include_ec996982c38187904a9d563ed4013124</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:06:14</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>sys_script_include_ec996982c38187904a9d563ed4013124</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1590365_worksp_0.WorkspacePlanningUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;WorkspacePlanningUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var WorkspacePlanningUtils = Class.create();
+WorkspacePlanningUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getElegibleManagers: function () {
+		var excludedManagers = [];
+		var gaBase = new GlideAggregate('x_1590365_worksp_0_office_base');
+		gaBase.addAggregate('COUNT');
+		gaBase.groupBy('manager');
+		gaBase.query();
+
+		while (gaBase.next()) {
+			var count = Number(gaBase.getAggregate('COUNT'));
+
+			if (count &gt;= 1) {
+				excludedManagers.push(gaBase.getValue('manager'));
+			}
+		}
+		var role = 'x_1590365_worksp_0.base_manager';
+		var query = "roles=" + role;
+
+		if (excludedManagers.length &gt; 0) {
+			query += "^sys_idNOT IN" + excludedManagers.join(",");
+		}
+
+		return query;
+	},
+
+	type: 'WorkspacePlanningUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-25 19:06:14&lt;/sys_created_on&gt;&lt;sys_id&gt;ec996982c38187904a9d563ed4013124&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;WorkspacePlanningUtils&lt;/sys_name&gt;&lt;sys_package display_value="Workspace Planning" source="x_1590365_worksp_0"&gt;ca3a548ec30947904a9d563ed4013157&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Workspace Planning"&gt;ca3a548ec30947904a9d563ed4013157&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ec996982c38187904a9d563ed4013124&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-25 19:06:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1629055281</payload_hash>
+        <record_name>WorkspacePlanningUtils</record_name>
+        <reverted_from/>
+        <source>c63a548ec30947904a9d563ed4013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:06:15</sys_created_on>
+        <sys_id>3a0ae94ac38187904a9d563ed401311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e6087d52f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:06:15</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f20ae94a058187904f63f1ff6dc8721c</update_guid>
+        <update_guid_history>f20ae94a058187904f63f1ff6dc8721c:-1629055281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:29:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>11d2dbf8968e4cf0859b7c8830d08c40</sys_id>
+        <sys_metadata>ec996982c38187904a9d563ed4013124</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkspacePlanningUtils</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_scope_delete display_value="">3cd2bc9fc71441cc9df92bb988d5bb69</sys_scope_delete>
+        <sys_update_name>sys_script_include_ec996982c38187904a9d563ed4013124</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ec996982c38187904a9d563ed4013124">3a0ae94ac38187904a9d563ed401311d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:29:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

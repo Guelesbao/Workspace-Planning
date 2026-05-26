@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1590365_worksp_0.WorkspacePlanningUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>WorkspacePlanningUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var WorkspacePlanningUtils = Class.create();
+WorkspacePlanningUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	// STRY 2 - O mesmo gerente não pode gerir duas bases diferentes.
+	getElegibleManagers: function () {
+		var excludedManagers = [];
+		var gaBase = new GlideAggregate('x_1590365_worksp_0_office_base');
+		gaBase.addAggregate('COUNT');
+		gaBase.groupBy('manager');
+		gaBase.query();
+
+		while (gaBase.next()) {
+			var count = Number(gaBase.getAggregate('COUNT'));
+
+			if (count >= 1) {
+				excludedManagers.push(gaBase.getValue('manager'));
+			}
+		}
+		var role = 'x_1590365_worksp_0.base_manager';
+		var query = "roles=" + role;
+
+		if (excludedManagers.length > 0) {
+			query += "^sys_idNOT IN" + excludedManagers.join(",");
+		}
+
+		return query;
+	},
+
+	// STRY 4 - Não deve ser possível inserir 2 bases com o mesmo nome
+	validateSameBaseName: function () {
+		var baseName = this.getParameter('sysparm_base_name');
+
+		// Pesquisa se já tem base com o mesmo nome inserido.
+		var gaBaseName = new GlideAggregate('x_1590365_worksp_0_office_base');
+		gaBaseName.addQuery('name', baseName.toString().trim().toUpperCase());
+		gaBaseName.addAggregate('COUNT');
+		gaBaseName.query();
+
+		if (gaBaseName.next()) {
+			var count = Number(gaBaseName.getAggregate('COUNT'));
+
+			if (count >= 1) {
+				var msgSameName = 'There is already a office base with that same name!';
+			}
+		}
+
+		if (msgSameName) {
+			return JSON.stringify({ message: msgSameName });
+		} else {
+			return JSON.stringify({ message: '' });
+		}
+	},
+
+	// STRY 4 - Não deve ser possível inserir 2 bases com a mesma cidade e estado
+	validateSameCityAndState: function () {
+		var baseCity = this.getParameter('sysparm_base_city') || '';
+		var baseState = this.getParameter('sysparm_base_state') || '';
+
+		// Pesquisa se já tem base com a mesma cidade e estado inserido.
+		var gaBaseCityAndState = new GlideAggregate('x_1590365_worksp_0_office_base');
+		gaBaseCityAndState.addQuery('city', baseCity.toString().trim().toUpperCase());
+		gaBaseCityAndState.addQuery('state', baseState.toString().trim().toUpperCase());
+		gaBaseCityAndState.addAggregate('COUNT');
+		gaBaseCityAndState.query();
+
+		if (gaBaseCityAndState.next()) {
+			var count2 = Number(gaBaseCityAndState.getAggregate('COUNT'));
+
+			if (count2 >= 1) {
+				var msgSameCityAndState = 'There is already a office base with that same city and state!';
+			}
+		}
+
+		if (msgSameCityAndState) {
+			return JSON.stringify({ message: msgSameCityAndState });
+		} else {
+			return JSON.stringify({ message: '' });
+		}
+	},
+
+	type: 'WorkspacePlanningUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:29:45</sys_created_on>
+        <sys_id>b54fa506c3c187904a9d563ed40131b6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>WorkspacePlanningUtils</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_script_include_b54fa506c3c187904a9d563ed40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 22:24:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

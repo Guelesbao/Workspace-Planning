@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b5c3a60ec34987904a9d563ed4013119" sys_domain="global" table="x_1590365_worksp_0_office_base" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-25 23:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdc3a60ec34987904a9d563ed40131c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1590365_worksp_0_office_base" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">b5c3a60ec34987904a9d563ed4013119</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">7709e84ec38947904a9d563ed40131b1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-25 23:18:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-25 23:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79c3a60ec34987904a9d563ed40131c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1590365_worksp_0_office_base" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">b5c3a60ec34987904a9d563ed4013119</sys_ui_form>
+            <sys_ui_section caption="Weather" display_value="Weather" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">b5c3a60ec34987904a9d563ed4013114</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-25 23:18:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-25 23:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdc3a60ec34987904a9d563ed40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1590365_worksp_0_office_base" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">b5c3a60ec34987904a9d563ed4013119</sys_ui_form>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1590365_worksp_0_office_base" sys_domain="global" view="Default view">7dc3a60ec34987904a9d563ed4013117</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-25 23:18:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1590365_worksp_0_office_base</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-25 23:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5c3a60ec34987904a9d563ed4013119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1590365_worksp_0_office_base</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b5c3a60ec34987904a9d563ed4013119</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-25 23:18:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

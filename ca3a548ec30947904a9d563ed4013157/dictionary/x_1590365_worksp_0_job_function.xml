@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd1d5806c34947904a9d563ed40131fd" label="Job Function" max_length="40" name="x_1590365_worksp_0_job_function" type="collection">
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

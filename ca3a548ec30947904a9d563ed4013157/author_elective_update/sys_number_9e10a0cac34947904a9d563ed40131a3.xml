@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1590365_worksp_0_base_register">x_1590365_worksp_0_base_register</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BSR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 13:43:10</sys_created_on>
+        <sys_id>9e10a0cac34947904a9d563ed40131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BSR</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_number_9e10a0cac34947904a9d563ed40131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 13:43:10</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>sys_number_9e10a0cac34947904a9d563ed40131a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1590365_worksp_0_base_register">x_1590365_worksp_0_base_register</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>BSR</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-25 13:43:10</sys_created_on><sys_id>9e10a0cac34947904a9d563ed40131a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BSR</sys_name><sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package><sys_policy/><sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope><sys_update_name>sys_number_9e10a0cac34947904a9d563ed40131a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 13:43:10</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1007325321</payload_hash>
+        <record_name>BSR</record_name>
+        <reverted_from/>
+        <source>c63a548ec30947904a9d563ed4013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 13:43:10</sys_created_on>
+        <sys_id>9210a0cac34947904a9d563ed40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e5f600c5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 13:43:10</sys_updated_on>
+        <type>Number</type>
+        <update_guid>5e10a0ca29494790c09d6929478f10ea</update_guid>
+        <update_guid_history>5e10a0ca29494790c09d6929478f10ea:-1007325321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 13:45:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>810028cceaba4cbc869eca9a0c850de4</sys_id>
+        <sys_metadata>9e10a0cac34947904a9d563ed40131a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BSR</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_parent display_value="">4c6e5886c34947904a9d563ed4013134</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_scope_delete display_value="">3cd2bc9fc71441cc9df92bb988d5bb69</sys_scope_delete>
+        <sys_update_name>sys_number_9e10a0cac34947904a9d563ed40131a3</sys_update_name>
+        <sys_update_version display_value="sys_number_9e10a0cac34947904a9d563ed40131a3">9210a0cac34947904a9d563ed40131ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 13:45:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

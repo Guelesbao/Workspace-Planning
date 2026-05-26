@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1590365_worksp_0.base_register_user" name="x_1590365_worksp_0.base_register_user">c2102846c34947904a9d563ed4013106</contains>
+        <role display_value="x_1590365_worksp_0.user" name="x_1590365_worksp_0.user">423a548ec30947904a9d563ed40131f4</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:07:53</sys_created_on>
+        <sys_id>be6a69cac38187904a9d563ed401314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1590365_worksp_0.base_register_user.x_1590365_worksp_0.user</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_user_role_contains_be6a69cac38187904a9d563ed401314e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:07:53</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>sys_user_role_contains_be6a69cac38187904a9d563ed401314e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1590365_worksp_0.base_register_user" name="x_1590365_worksp_0.base_register_user">c2102846c34947904a9d563ed4013106</contains><role display_value="x_1590365_worksp_0.user" name="x_1590365_worksp_0.user">423a548ec30947904a9d563ed40131f4</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-25 19:07:53</sys_created_on><sys_id>be6a69cac38187904a9d563ed401314e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1590365_worksp_0.base_register_user.x_1590365_worksp_0.user</sys_name><sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package><sys_policy/><sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope><sys_update_name>sys_user_role_contains_be6a69cac38187904a9d563ed401314e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 19:07:53</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>2146664094</payload_hash>
+        <record_name>x_1590365_worksp_0.base_register_user.x_1590365_worksp_0.user</record_name>
+        <reverted_from/>
+        <source>c63a548ec30947904a9d563ed4013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:07:53</sys_created_on>
+        <sys_id>b26a69cac38187904a9d563ed4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e608956c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:07:53</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>7e6a69ca3181879003de037e69ea2e55</update_guid>
+        <update_guid_history>7e6a69ca3181879003de037e69ea2e55:2146664094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 22:31:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>50adf95e9dea40d2a3abc1a0cea40d64</sys_id>
+        <sys_metadata>be6a69cac38187904a9d563ed401314e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1590365_worksp_0.base_register_user.x_1590365_worksp_0.user</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_scope_delete display_value="">3cd2bc9fc71441cc9df92bb988d5bb69</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_be6a69cac38187904a9d563ed401314e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_be6a69cac38187904a9d563ed401314e">b26a69cac38187904a9d563ed4013157</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 22:31:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
