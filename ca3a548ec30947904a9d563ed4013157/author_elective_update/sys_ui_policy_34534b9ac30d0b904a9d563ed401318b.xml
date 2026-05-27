@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Default read only fields</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 20:15:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34534b9ac30d0b904a9d563ed401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default read only fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_ui_policy_34534b9ac30d0b904a9d563ed401318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 20:15:06</sys_updated_on>
+        <table>x_1590365_worksp_0_base_register</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>sys_ui_policy_34534b9ac30d0b904a9d563ed401318b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Default read only fields&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-26 20:15:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;34534b9ac30d0b904a9d563ed401318b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Default read only fields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Workspace Planning" source="x_1590365_worksp_0"&gt;ca3a548ec30947904a9d563ed4013157&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace Planning"&gt;ca3a548ec30947904a9d563ed4013157&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_34534b9ac30d0b904a9d563ed401318b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-26 20:15:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1590365_worksp_0_base_register&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1116261182</payload_hash>
+        <record_name>Default read only fields</record_name>
+        <reverted_from/>
+        <source>535f6e02c3c987904a9d563ed401310e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 20:15:06</sys_created_on>
+        <sys_id>c563cb9ac30d0b904a9d563ed40131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e65ed39c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 20:15:06</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>8163cb9a840d0b90cef79c892de21bd3</update_guid>
+        <update_guid_history>8163cb9a840d0b90cef79c892de21bd3:-1116261182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 20:19:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>4318a7352f2d42d086423a063650b100</sys_id>
+        <sys_metadata>34534b9ac30d0b904a9d563ed401318b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default read only fields</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_parent display_value="Base Register">10a0a80ec34947904a9d563ed4013108</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_scope_delete display_value="">3cd2bc9fc71441cc9df92bb988d5bb69</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_34534b9ac30d0b904a9d563ed401318b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_34534b9ac30d0b904a9d563ed401318b">c563cb9ac30d0b904a9d563ed40131d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 20:19:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

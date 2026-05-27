@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Workspace Planning">739ed59ec3cdc7904a9d563ed4013127</category>
+        <order>200</order>
+        <property display_value="x_1590365_worksp_0.integration_endpoint" name="x_1590365_worksp_0.integration_endpoint">950f1d9ec3cdc7904a9d563ed40131c4</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 12:57:35</sys_created_on>
+        <sys_id>084f5112c3010b904a9d563ed40131d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1590365_worksp_0.integration_endpoint.Workspace Planning</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_084f5112c3010b904a9d563ed40131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 13:05:02</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -33,6 +33,7 @@
 		if (infoMsg) {
 			g_form.clearValue('city');
 			g_form.showFieldMsg('city', infoMsg, 'error');
+			g_form.setValue('integration_state', '1');
 		} else {
 			return;
 		}
@@ -44,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01af0682c3c587904a9d563ed40131f8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Base with same city?</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
@@ -52,7 +53,7 @@
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name>sys_script_client_01af0682c3c587904a9d563ed40131f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-25 22:20:08</sys_updated_on>
+        <sys_updated_on>2026-05-26 16:19:05</sys_updated_on>
         <table>x_1590365_worksp_0_office_base</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
