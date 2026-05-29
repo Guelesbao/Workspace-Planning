@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_1590365_worksp_0_base_register" relationship="" sys_domain="global" table="sysapproval_approver" version="2" view="base_manager">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>10b5650fc34d4f904a9d563ed4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approver</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>94b5650fc34d4f904a9d563ed4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval.ref_x_1590365_worksp_0_base_register.user</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>1cb5650fc34d4f904a9d563ed4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval.ref_x_1590365_worksp_0_base_register.office_base</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>90b5650fc34d4f904a9d563ed4013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval.ref_x_1590365_worksp_0_base_register.office_base.city</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>18b5650fc34d4f904a9d563ed4013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval.ref_x_1590365_worksp_0_base_register.office_base.state</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>9cb5650fc34d4f904a9d563ed4013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval.ref_x_1590365_worksp_0_base_register.job_function</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>14b5650fc34d4f904a9d563ed4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>98b5650fc34d4f904a9d563ed4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_1590365_worksp_0_base_register" relationship="NULL" sys_domain="global" view="e2a911c3c30d4f904a9d563ed40131ee">50b5650fc34d4f904a9d563ed4013141</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_id>10b5650fc34d4f904a9d563ed4013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sysapproval_approver</name>
+            <parent>x_1590365_worksp_0_base_register</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 21:21:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50b5650fc34d4f904a9d563ed4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+            <sys_update_name>sys_ui_list_sysapproval_approver_x_1590365_worksp_0_base_register_base_manager</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 21:21:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Base Manager" name="base_manager">e2a911c3c30d4f904a9d563ed40131ee</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

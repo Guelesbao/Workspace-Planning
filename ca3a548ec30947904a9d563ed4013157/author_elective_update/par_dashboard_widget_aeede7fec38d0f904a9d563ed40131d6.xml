@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">a2ede7fec38d0f904a9d563ed40131bc</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"xl","headingPosition":"top","sparklineStyle":"area","scoreIcon":"workflow-approval-action-outline","iconStyle":"no-background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":false,"colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","rules":[]}]},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Enrollment","sourceType":"table","tableOrViewName":"x_1590365_shark_0_enrollment","filterQuery":"state=2","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1OTAzNjVfc2hhcmtfMF9lbnJvbGxtZW50MTc3ODgyMTEyODUwNQ==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showHeaderSeparator":true,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"metrics":[{"dataSource":"dGFibGV4XzE1OTAzNjVfc2hhcmtfMF9lbnJvbGxtZW50MTc3ODgyMTEyODUwNQ==","id":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","componentId":"hp2k7p7f","noDebounce":true,"showDateRangeByDefault":false,"allowChangeDateRange":false,"headerTitle":"Pending Enrollment Approvals","description":"The rapid number of stalled approvals.","showLoadingIndicator":false,"id":"colorConfig","value":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","rules":[]}]},"propLabel":"Colors","filterPerMetric":[],"showFilterAsSeparateSeries":false,"chartInteractionAction":"goToData","chartInteractionEnabled":true}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 12:37:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aeede7fec38d0f904a9d563ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>par_dashboard_widget_aeede7fec38d0f904a9d563ed40131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 12:37:50</sys_updated_on>
+        <visualization/>
+        <w>20</w>
+        <widget_props/>
+        <x>28</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>par_dashboard_widget_aeede7fec38d0f904a9d563ed40131d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">a2ede7fec38d0f904a9d563ed40131bc</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"xl","headingPosition":"top","sparklineStyle":"area","scoreIcon":"workflow-approval-action-outline","iconStyle":"no-background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":false,"colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","rules":[]}]},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Enrollment","sourceType":"table","tableOrViewName":"x_1590365_shark_0_enrollment","filterQuery":"state=2","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1OTAzNjVfc2hhcmtfMF9lbnJvbGxtZW50MTc3ODgyMTEyODUwNQ==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showHeaderSeparator":true,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"metrics":[{"dataSource":"dGFibGV4XzE1OTAzNjVfc2hhcmtfMF9lbnJvbGxtZW50MTc3ODgyMTEyODUwNQ==","id":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","componentId":"hp2k7p7f","noDebounce":true,"showDateRangeByDefault":false,"allowChangeDateRange":false,"headerTitle":"Pending Enrollment Approvals","description":"The rapid number of stalled approvals.","showLoadingIndicator":false,"id":"colorConfig","value":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUxT1RBek5qVmZjMmhoY210Zk1GOWxibkp2Ykd4dFpXNTBNVGMzT0RneU1URXlPRFV3TlE9PTE3Nzg4MjExMzA4ODI=","rules":[]}]},"propLabel":"Colors","filterPerMetric":[],"showFilterAsSeparateSeries":false,"chartInteractionAction":"goToData","chartInteractionEnabled":true}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-28 12:37:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aeede7fec38d0f904a9d563ed40131d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package><sys_policy/><sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope><sys_update_name>par_dashboard_widget_aeede7fec38d0f904a9d563ed40131d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-28 12:37:50</sys_updated_on><visualization/><w>20</w><widget_props/><x>28</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1766769840</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>535f6e02c3c987904a9d563ed401310e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 12:37:50</sys_created_on>
+        <sys_id>a2ede7fec38d0f904a9d563ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e6e97509e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 12:37:50</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6eede7fe418d0f90aeb78cb6e36435d8</update_guid>
+        <update_guid_history>6eede7fe418d0f90aeb78cb6e36435d8:1766769840</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3aed2bfec38d0f904a9d563ed401318e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 12:37:52</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>9868443fe8ac4200b33a6fc563e66400</sys_id>
+        <sys_metadata>aeede7fec38d0f904a9d563ed40131d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_scope_delete display_value="">3cd2bc9fc71441cc9df92bb988d5bb69</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_aeede7fec38d0f904a9d563ed40131d6</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_aeede7fec38d0f904a9d563ed40131d6">a2ede7fec38d0f904a9d563ed40131da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 12:37:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

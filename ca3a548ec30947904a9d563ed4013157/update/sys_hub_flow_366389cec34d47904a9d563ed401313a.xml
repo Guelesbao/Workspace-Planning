@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=111530000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=261273000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27800</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>link_manager_when_registering_a_work_base</internal_name>
-        <label_cache>[{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Office Base Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"manager","usedInstances":{"f2280069-00e1-4af2-81fc-0a62a35f0c11":["user"],"0ddb7152-bbce-42ec-b374-eb1da35eae83":["conditions"]}},{"name":"Created_1.current.opened_by.user_name","label":"Trigger - Record Created➛Enrollment Record➛Student➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Enrollment Table","reference":"x_1590365_shark_0_enrollment","reference_display":"Enrollment","type":"table_name","base_type":"table_name","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Office Base Record","reference":"x_1590365_worksp_0_office_base","reference_display":"Office Base","type":"reference","base_type":"reference","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["conditions"],"8b14f223-99cf-4690-968d-d87f03302727":["record"],"a37bb557-553f-4ace-ba33-309187e40c8a":["record"],"f2280069-00e1-4af2-81fc-0a62a35f0c11":["office_base"],"a9794009-7830-4495-a87e-42526fb76386":["record"]},"attributes":{}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Office Base Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"sys_created_by","usedInstances":{"34ae4f4f-a6b7-4727-9106-ffe8a50d2800":["condition"]}},{"name":"Created_1.current.training_session","label":"Trigger - Record Created➛Enrollment Record➛Training Session","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","parent_table_name":"x_1590365_shark_0_enrollment","column_name":"training_session","usedInstances":{"23237324-51a9-4b51-8415-1b50f8910b1d":["conditions"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record","label":"5 - Look Up Record➛Training Session Record","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["record"],"8049085a-b97d-4824-afba-cd139da156c4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.available_seats","label":"5 - Look Up Record➛Training Session Record➛Available Seats","reference":"","reference_display":"Available Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"available_seats","usedInstances":{"bed10814-0e0f-4492-a349-184aeffa1f93":["condition"],"8049085a-b97d-4824-afba-cd139da156c4":["available_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.max_seats","label":"5 - Look Up Record➛Training Session Record➛Max Seats","reference":"","reference_display":"Max Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"max_seats","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["max_seats"]}},{"name":"Created_1.current.available_capacity","label":"Trigger - Record Created➛Office Base Record➛Available Capacity","reference":"","reference_display":"Available Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"available_capacity","usedInstances":{"a9794009-7830-4495-a87e-42526fb76386":["available_capacity"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.available_capacity","label":"Trigger - Record Created➛Office Base Record➛Available Capacity","reference":"","reference_display":"Available Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"available_capacity","usedInstances":{"a9794009-7830-4495-a87e-42526fb76386":["available_capacity"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.max_seats","label":"5 - Look Up Record➛Training Session Record➛Max Seats","reference":"","reference_display":"Max Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"max_seats","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["max_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.available_seats","label":"5 - Look Up Record➛Training Session Record➛Available Seats","reference":"","reference_display":"Available Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"available_seats","usedInstances":{"bed10814-0e0f-4492-a349-184aeffa1f93":["condition"],"8049085a-b97d-4824-afba-cd139da156c4":["available_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record","label":"5 - Look Up Record➛Training Session Record","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["record"],"8049085a-b97d-4824-afba-cd139da156c4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.training_session","label":"Trigger - Record Created➛Enrollment Record➛Training Session","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","parent_table_name":"x_1590365_shark_0_enrollment","column_name":"training_session","usedInstances":{"23237324-51a9-4b51-8415-1b50f8910b1d":["conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Office Base Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"sys_created_by","usedInstances":{"34ae4f4f-a6b7-4727-9106-ffe8a50d2800":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Office Base Record","reference":"x_1590365_worksp_0_office_base","reference_display":"Office Base","type":"reference","base_type":"reference","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["conditions"],"8b14f223-99cf-4690-968d-d87f03302727":["record"],"a37bb557-553f-4ace-ba33-309187e40c8a":["record"],"f2280069-00e1-4af2-81fc-0a62a35f0c11":["office_base"],"a9794009-7830-4495-a87e-42526fb76386":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Enrollment Table","reference":"x_1590365_shark_0_enrollment","reference_display":"Enrollment","type":"table_name","base_type":"table_name","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.opened_by.user_name","label":"Trigger - Record Created➛Enrollment Record➛Student➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{}},{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Office Base Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"manager","usedInstances":{"f2280069-00e1-4af2-81fc-0a62a35f0c11":["user"],"0ddb7152-bbce-42ec-b374-eb1da35eae83":["conditions"],"83bcd3f5-3033-4938-82e1-aa5b49cc3a42":["user"]}},{"name":"c31a370f-4308-421c-aaf1-1a1f795ea0f8.record","label":"1 - Create Record➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"83bcd3f5-3033-4938-82e1-aa5b49cc3a42":["group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>b3ed09c2c3cd47904a9d563ed40131b4</master_snapshot>
         <master_snapshot_digest/>
         <name>Link manager when registering a office base</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>366389cec34d47904a9d563ed401313a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Link manager when registering a office base</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name>sys_hub_flow_366389cec34d47904a9d563ed401313a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:04</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -85,14 +85,14 @@
         <identifier>366389cec34d47904a9d563ed401313a</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-26 23:16:20</sys_created_on>
-        <sys_id>04ec671ec3414b904a9d563ed401313b</sys_id>
+        <sys_created_on>2026-05-28 16:52:04</sys_created_on>
+        <sys_id>e61824c3c3854f904a9d563ed40131f1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:04</sys_updated_on>
         <trigger display_value="">8cfd49c2c3cd47904a9d563ed4013106</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=366389cec34d47904a9d563ed401313a^sys_idNOT IN04ec671ec3414b904a9d563ed401313b"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=366389cec34d47904a9d563ed401313a^sys_idNOT INe61824c3c3854f904a9d563ed40131f1"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=366389cec34d47904a9d563ed401313a"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=366389cec34d47904a9d563ed401313a^sys_idNOT INb66389cec34d47904a9d563ed4013140"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -300,12 +300,12 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=366389cec34d47904a9d563ed401313a^sys_idNOT IN6fdc271ec3414b904a9d563ed40131a0,7bed09c2c3cd47904a9d563ed4013157"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=366389cec34d47904a9d563ed401313a^sys_idNOT IN061824c3c3854f904a9d563ed401311b,6fdc271ec3414b904a9d563ed40131a0,7bed09c2c3cd47904a9d563ed4013157,8e1824c3c3854f904a9d563ed401311c"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Name &amp;&amp; Parent</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Link manager when registering a office base">366389cec34d47904a9d563ed401313a</flow>
@@ -314,12 +314,36 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-26 23:16:19</sys_created_on>
-        <sys_id>6fdc271ec3414b904a9d563ed40131a0</sys_id>
+        <sys_created_on>2026-05-28 16:52:02</sys_created_on>
+        <sys_id>061824c3c3854f904a9d563ed401311b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:19</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:02</sys_updated_on>
+        <ui_id>c31a370f-4308-421c-aaf1-1a1f795ea0f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VVUW/TMBD+K5FfCVHSdFnbPYFQedoqAdrLMiInvrSWHCfYTrdS9b9ztpNSNoYqhITWt/vufN93Pn/N3Z5wRhYkSyC+mCdZlSZpOonjyWyalFlaJhOWUoApCYmkDWCloaWAwgUh2VLRW1DvdNFrUMVatX2HCcZ1J+judsh/HOBqwwVTIMni7j4kHVXYxoAii/2TlNl1UAhagsDTXyxlcOMpz5X7y+EX5FuWp1irmBUUhwQeDUgGyFdToSEkDZWMmlbtyMKoHgEFlK2k2B0rNlwabEhs7aPm37H7LLZ1NeBoFfjcMSyGa/JwtWl5BavO8FZ6xAkbkq3oG3njh7AXDDXthRkvGBG8/4JBZyVbEYOi+vOmffg0Ei65dNMNSdFWVBwjaoziZW9A232AgAYbFQ3tOi7XRafaLXeHUUsTrQUGUS3aByTVfC0jWlnhEd4QjZaIf3DwLVXcTnGNbfDwwU1ffOstr59jUFz4obFAV4p35h2228Ig7hCO75RBPH9x8Un5c9HuaeqTN2rxvI/jlNXsrecA9hXfIJJ7fJ+P7zYni5y8pxqCayrpGpTOSZj7Vi43q5JsEleoYzafXs7jKZ2ziywFNo2TNMlmrty6grMz6w/PXfMKFP+loaFBzQYCP2l49m7HBksOgunfLHt09EBQbAeCwdXJv3J1ksXu93+87XW+Mmuf/Ms+M7kfyGNWoV/r/o9VuHQV2MJV7T4vgbdEULPCCcWJ1+iDqOqVNUxkS4M3rmpyObrER1e5VGB6JU/7XeEImm6BHfdwOBzufwBU5UMjMQcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=061824c3c3854f904a9d563ed401311b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Available Capacity -= 1</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Link manager when registering a office base">366389cec34d47904a9d563ed401313a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 23:16:19</sys_created_on>
+        <sys_id>6fdc271ec3414b904a9d563ed40131a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 16:52:02</sys_updated_on>
         <ui_id>a9794009-7830-4495-a87e-42526fb76386</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1U0U7bMBT9lSrPbRU3SaF924aQ9jCQ2MQLQ9aNfQPWnDhznEJX9d93nTilMMYQqjRNWt58r33uOccnvtpESkbLKEUZswWbi4QlySyOZ8cpy+dJzmYyAUQWjaMKSqSdFoWxktYr0K0vbDYfLIJDydlUtNZi5bZb6kvV1BrWl2EbVcSt0pL60fLqehzVYAnRoY2Wmyctt66Ra8hR08ETI9qSQEcfTwjjtWyH0xcD3af0/Qxay4DOlS9Sy/Nh8TjCe4eVRBpXgG5wHJVQSXDGrqOlsy0VSLU8r/R6t+NWVa5XWsJ9o34Qfhr7fQWSNBFc2C15cGgwxyiB57VTpuorDnI9OGd0W1ZnvQTvLRbQarfnbdsQHtaesifRMyw+35q7i2Heqao6dYGtNgL0bgXOWZW3Dht/HaixM6WEulbVDa+tWanuMFEppzeaFtNCmzua2aibagrC856SQTA9pfpJV74Eq7yITwRDh7edeP699XN7GYEw7zR3gnl3UbS1EVbV7h0BrzDQ3I5DXPPspQCIxcN972E+RPaes2wRJ/OM3xn7ral5zE1RkP08hwZ/ze551xy975tvi/EXT2R01hN5rYhHh38jKgT5US3kODtYjo//Uo4Do38syH+Kbzx78f3au+kusc1edGEFSndXLaAGodz6axvHidxsCsmdhaopjC2XiYeTDCZFyhaTFFk2WWSpnBylSTYDEEcshude6UPDv/FfwZJIORz1tMavdm0AOFWoZfOMjcPPEgbwVRiwe/gP9sewedx9/9//A77/1z8BanJB97AIAAA=</values>
@@ -329,8 +353,32 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Preenchendo campos do registro</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Link manager when registering a office base">366389cec34d47904a9d563ed401313a</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 17:03:25</sys_created_on>
+        <sys_id>7bed09c2c3cd47904a9d563ed4013157</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 16:52:02</sys_updated_on>
+        <ui_id>f2280069-00e1-4af2-81fc-0a62a35f0c11</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VU227bMAz9lUDPhiHVjpfkbRfkrS3QDX1pWkG26ESbfJkk57Ig/z7KctKuW4BgGDAM8xvJI/IckubDnihJZiRjQMdTlhUJS5IrSq8mKcuzJGdXMhEAKYlILSpApBO5Bt4bEVkL3XnnlrPxlCbZmG8a88W2nPJcWOAGlso6MAiVyrZa7O6HF+8wPLp7DhcrpaWBmsweHiPSCoMFfGS2fxVyuxa4FjlozPLJkxndBDKXCvnh8RlhvsprX2OkJ0QjAlsHtQSsVwptISKVqKVwjdmRmTMdOgwIeVvr3QmxUrXDhMRjt1Z9w+wT6nEloLQCQuxk8qFdwV2sGlXAbetUUwdPT2wINrqr6psgwjcaStFpd2w0ejqchITWU/YkBkblx1WzuTsWnKu6VzcEdVMIfbKEc0blnQPr5wEaKkzEK9G2ql7y1jRr1T9GLlW81GjEpW42WNSqZR2LwhOPsUMinqP/Q+++F0Z5FdeYBh8fevX8a+frBh0DYx5EI8AWRrXuLaZbw0DuEB03WAKdnh08y58H3S+tfbG92B+z6ChN5H7/HifnQHIWF53BzrgYZyuWYA6Hp6YscQz9Zp+FI+xzk/Oyq3vRA25xXP8FmS3C7l+HtAsSLQKRPjTJgKWSQpGkMn0zpamYynGWgEwpS9hY9HC7s1zJC/GHJ+uQYiCS/Pwj/l/if/PMQIX8HYxC06KLN+6YYK5AS/uLFTzemaEAXw8FhlvD/tStYRntv79zcQLPf+zgvLj9Z07P43doJgBAPgcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bed09c2c3cd47904a9d563ed4013157"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>User &amp;&amp; Group</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Link manager when registering a office base">366389cec34d47904a9d563ed401313a</flow>
         <generation_source/>
@@ -338,17 +386,17 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-25 17:03:25</sys_created_on>
-        <sys_id>7bed09c2c3cd47904a9d563ed4013157</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2026-05-28 16:52:02</sys_created_on>
+        <sys_id>8e1824c3c3854f904a9d563ed401311c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:19</sys_updated_on>
-        <ui_id>f2280069-00e1-4af2-81fc-0a62a35f0c11</ui_id>
+        <sys_updated_on>2026-05-28 16:52:02</sys_updated_on>
+        <ui_id>83bcd3f5-3033-4938-82e1-aa5b49cc3a42</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VV227bMAz9lULPhiHFjpfkbRfkrS3QDX1pWkG26ESbfJkk57Ig/z7KctKuW4BgGDAM84sh8og8h6Tphz1RksxIxoCOpywrEpYkI0pHk5TlWZKzkUwEQEoiUosKEOlEroH3h4ishe68ccvZeEqTbMw3jfliW055LixwA0tlHRiESmVbLXb3w4136L66e3YXK6WlgZrMHh4j0gqDCbxntn/lcrsWuBY5aIzyyZO5uglkLhXyw+UzwnyW17bGSE+IRgS2DmoJmK8U2kJEKlFL4RqzIzNnOjQYEPK21rsTYqVqhwGJx26t+obRJ9TjSkBpBQTf6ciHcgVzsWpUAbetU00dLD2xwdnorqpvgghfaChFp92x0GjpsBMSWk/ZkxgYlR9XzebumHCu6l7d4NRNIfTpJJwzKu8cWN8P0FBhIF6JtlX1kremWav+MnKp4qXGQ1zqZoNJrVrWsSg88RgrJOI52j/05nthlFdxjWHw8qFXz792Pm/QMTDmQTQCbGFU695iuDUM5A7RcYIl0OnZxrP8udH90NoX04v1MYuO0kTu9++xcw4kZ3HRGayMi7G3YgnmcHhqyhLb0E/2WTjCPjc5L7u6Fz3gFsfxX5DZIsz+dQi7INEiEOldkwxYKikUSSrTN1OaiqkcZwnIlLKEjUUPtzvLlbwQf3iyDikGIslTeP/8Pf6XNfjNpQMVynBwFWoXXTx/xwBzBVraXwzkcesMCfh6SDBsHvanNg/LaP/8nf0TeP5j6+fFn+DMInr8Dpt0J+dMBwAA</values>
+        <values>H4sIAAAAAAAA/9VU227TQBD9lWifHWs3TtMkbwgUntpKgPpS2tXYO3ZWWl9Yr9OayP/OrC+hFCJVCIHw25yZnXPm5rsj04pt2Uogv9iIVRKJKFpwvlgvRbyKYrFQESAuWcAKyJEiHcQGZW8E7ACm8WDd1rKp0crM5pjHaMmndF0ZaG/HkPe2bKrZ1eRN9tooiwXb3t0HrAJLCR15tscXLtdWKA3EaCjJJ08+ux7IXyv8h8dnCvEsL7HSKi+IBwyfHBYKiS8FU2PAcigUuNK2bOtsQ4BFUDeFaU8Re104Ssh87FOtv1L2NfdxKVJpCQ6+kynHbg1wsi91gjeV02UxIL2w0VmaJi+uhyJ8nzGFxripz4TQJKTCykv2IkZF6cd9+fhhItzpoq9udJoyAXOywDmr48Zh7eeBBnNKJHOoKl1ksrLlQfePSUseZoaMMDXlI5HWOitCSLzwkDoE4Y7wdz18C1b7Kq4oDT3u+urll8bzDnWMiuVQNAXUidWVe0PpDjiK64JpYxXyzdnBi/j7oPslrZ9tq9/Uzw3nkToe39LkHCopwqSx1BkX0mwhQ9t1D5lf2SmQeCC65Ol8GfH1fLkQyRwgFXMBIr3cXCDwdB1aTGhruu7n9f8rnL95VJiTUoezQWvw6v5OCXYajap/0fDpqkYCeRgJxssSf+qyxIr337+5r0Hnf3Zez/50Zw7t/hsjte8eHAYAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bed09c2c3cd47904a9d563ed4013157"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e1824c3c3854f904a9d563ed401311c"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=366389cec34d47904a9d563ed401313a"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=366389cec34d47904a9d563ed401313a"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=366389cec34d47904a9d563ed401313a^sys_idNOT IN0b63c9cec34d47904a9d563ed4013112,77dc271ec3414b904a9d563ed40131a5,8f63c9cec34d47904a9d563ed4013112,b3dc271ec3414b904a9d563ed40131a6,cb63c9cec34d47904a9d563ed4013111,cb63c9cec34d47904a9d563ed4013112"/>
@@ -517,7 +565,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>link_manager_when_registering_a_work_base</internal_name>
-        <label_cache>[{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Office Base Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"manager","usedInstances":{"f2280069-00e1-4af2-81fc-0a62a35f0c11":["user"],"0ddb7152-bbce-42ec-b374-eb1da35eae83":["conditions"]}},{"name":"Created_1.current.opened_by.user_name","label":"Trigger - Record Created➛Enrollment Record➛Student➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Enrollment Table","reference":"x_1590365_shark_0_enrollment","reference_display":"Enrollment","type":"table_name","base_type":"table_name","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Office Base Record","reference":"x_1590365_worksp_0_office_base","reference_display":"Office Base","type":"reference","base_type":"reference","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["conditions"],"8b14f223-99cf-4690-968d-d87f03302727":["record"],"a37bb557-553f-4ace-ba33-309187e40c8a":["record"],"f2280069-00e1-4af2-81fc-0a62a35f0c11":["office_base"],"a9794009-7830-4495-a87e-42526fb76386":["record"]},"attributes":{}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Office Base Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"sys_created_by","usedInstances":{"34ae4f4f-a6b7-4727-9106-ffe8a50d2800":["condition"]}},{"name":"Created_1.current.training_session","label":"Trigger - Record Created➛Enrollment Record➛Training Session","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","parent_table_name":"x_1590365_shark_0_enrollment","column_name":"training_session","usedInstances":{"23237324-51a9-4b51-8415-1b50f8910b1d":["conditions"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record","label":"5 - Look Up Record➛Training Session Record","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["record"],"8049085a-b97d-4824-afba-cd139da156c4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.available_seats","label":"5 - Look Up Record➛Training Session Record➛Available Seats","reference":"","reference_display":"Available Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"available_seats","usedInstances":{"bed10814-0e0f-4492-a349-184aeffa1f93":["condition"],"8049085a-b97d-4824-afba-cd139da156c4":["available_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.max_seats","label":"5 - Look Up Record➛Training Session Record➛Max Seats","reference":"","reference_display":"Max Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"max_seats","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["max_seats"]}},{"name":"Created_1.current.available_capacity","label":"Trigger - Record Created➛Office Base Record➛Available Capacity","reference":"","reference_display":"Available Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"available_capacity","usedInstances":{"a9794009-7830-4495-a87e-42526fb76386":["available_capacity"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.available_capacity","label":"Trigger - Record Created➛Office Base Record➛Available Capacity","reference":"","reference_display":"Available Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"available_capacity","usedInstances":{"a9794009-7830-4495-a87e-42526fb76386":["available_capacity"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.max_seats","label":"5 - Look Up Record➛Training Session Record➛Max Seats","reference":"","reference_display":"Max Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"max_seats","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["max_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record.available_seats","label":"5 - Look Up Record➛Training Session Record➛Available Seats","reference":"","reference_display":"Available Seats","type":"integer","base_type":"integer","parent_table_name":"x_1590365_shark_0_training_session","column_name":"available_seats","usedInstances":{"bed10814-0e0f-4492-a349-184aeffa1f93":["condition"],"8049085a-b97d-4824-afba-cd139da156c4":["available_seats"]}},{"name":"23237324-51a9-4b51-8415-1b50f8910b1d.Record","label":"5 - Look Up Record➛Training Session Record","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","usedInstances":{"f0f2ca45-b20a-4940-a87e-51700c106533":["record"],"8049085a-b97d-4824-afba-cd139da156c4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.training_session","label":"Trigger - Record Created➛Enrollment Record➛Training Session","reference":"x_1590365_shark_0_training_session","reference_display":"Training Session","type":"reference","base_type":"reference","parent_table_name":"x_1590365_shark_0_enrollment","column_name":"training_session","usedInstances":{"23237324-51a9-4b51-8415-1b50f8910b1d":["conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Office Base Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"sys_created_by","usedInstances":{"34ae4f4f-a6b7-4727-9106-ffe8a50d2800":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Office Base Record","reference":"x_1590365_worksp_0_office_base","reference_display":"Office Base","type":"reference","base_type":"reference","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["conditions"],"8b14f223-99cf-4690-968d-d87f03302727":["record"],"a37bb557-553f-4ace-ba33-309187e40c8a":["record"],"f2280069-00e1-4af2-81fc-0a62a35f0c11":["office_base"],"a9794009-7830-4495-a87e-42526fb76386":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Enrollment Table","reference":"x_1590365_shark_0_enrollment","reference_display":"Enrollment","type":"table_name","base_type":"table_name","usedInstances":{"5b138d30-4baf-4e5e-9ba6-445d60e67d43":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.opened_by.user_name","label":"Trigger - Record Created➛Enrollment Record➛Student➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{}},{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Office Base Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1590365_worksp_0_office_base","column_name":"manager","usedInstances":{"f2280069-00e1-4af2-81fc-0a62a35f0c11":["user"],"0ddb7152-bbce-42ec-b374-eb1da35eae83":["conditions"],"83bcd3f5-3033-4938-82e1-aa5b49cc3a42":["user"]}},{"name":"c31a370f-4308-421c-aaf1-1a1f795ea0f8.record","label":"1 - Create Record➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"83bcd3f5-3033-4938-82e1-aa5b49cc3a42":["group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Link manager when registering a office base</name>
         <natlang/>
@@ -534,7 +582,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b3ed09c2c3cd47904a9d563ed40131b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -542,7 +590,7 @@
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -626,14 +674,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-25 17:03:26</sys_created_on>
         <sys_id>77ed09c2c3cd47904a9d563ed40131cc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -710,14 +758,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-25 17:03:26</sys_created_on>
         <sys_id>7fed09c2c3cd47904a9d563ed40131b7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -755,12 +803,12 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b3ed09c2c3cd47904a9d563ed40131b4^sys_idNOT IN44fd09c2c3cd47904a9d563ed40131ea,77dc271ec3414b904a9d563ed40131fd"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b3ed09c2c3cd47904a9d563ed40131b4^sys_idNOT IN121824c3c3854f904a9d563ed401319d,44fd09c2c3cd47904a9d563ed40131ea,77dc271ec3414b904a9d563ed40131fd,de1824c3c3854f904a9d563ed401319b"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>User &amp;&amp; Group</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Link manager when registering a office base">b3ed09c2c3cd47904a9d563ed40131b4</flow>
@@ -769,23 +817,71 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-25 17:03:27</sys_created_on>
-        <sys_id>44fd09c2c3cd47904a9d563ed40131ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-05-28 16:52:03</sys_created_on>
+        <sys_id>121824c3c3854f904a9d563ed401319d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
+        <ui_id>83bcd3f5-3033-4938-82e1-aa5b49cc3a42</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUXW/aMBT9K8jPIbIJpZS3iYq9rK20Trx0XXRj3wRLzscch5Yh/vuu80FRV7RNmiaVN9/Pc07O5WHPtGILNhPIL67ETEYiiiacT+ZTkcyiRExUBIhTFrACcqRKB4nBuH0EbAum8cF6V8dNjTbObI55gpZySteVgd26L/loy6Ya3QxZudFGWSzY4uExYBVYGugos9i/Sv0pPAMJGir94vGdget21ZuxT6e9o9suUVrl8fCA4bPDQiEBScHUGLAcCgWutDu2cLahgEVQd4XZHSs2unA0kPna51r/oLVz7utSJGYSu9zxGfdideH0Ghzc02TpGtuXyk2pJdadJgpTaIxbnsa6grvK6bLoWlqafXdpmry47SRhxwHDt6EIfb1YYeV5euQ9jfR+Uz59HlCudNFK0idNKcEcX+Cc1UnjPJ49Q4M5DYpzqCpdZHFly61umwlLHmaGHmFqyidaWuusCEF64CHJCuGK4tdteA1WexY3NIaaD4F32tJAXb9wIRHj741H0jHrOcSdDL5FWl25D7Rgiz3cQzD4XiG/OmsskbwYqbV6feJ57/evDeeR2u+XZACHKhahbCxp5UKyCGRoD4dvmTf+UEh7ILrk6Xga8fl4OhFyDJCKsQCRXl5dIPB0HlqUZL7D4dcj+i87//I0f6/gcJorjUbVb0g63CXmRNZh3En86jb75GjdJ/v7FP/qPsWMt793dKUduXd/pCf/x2fO9fEn8WkjQagGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=121824c3c3854f904a9d563ed401319d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Preenchendo campos do registro</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Link manager when registering a office base">b3ed09c2c3cd47904a9d563ed40131b4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 17:03:27</sys_created_on>
+        <sys_id>44fd09c2c3cd47904a9d563ed40131ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
         <ui_id>f2280069-00e1-4af2-81fc-0a62a35f0c11</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VVTW/bMAz9K4XOhiHFjtfk1rXoaW2BdsilaQTZohNt8sckuW0W5L+Pspw06BqsA3Yplksg8pF6fCLp+w1RkkxJxoCOJywrEpYkI0pHpynLsyRnI5kIgJREpBYVINKJXAPvDxF5FLrzxmfOxhOaZGP+1JjvtuWU58ICN7BU1oFBqFS21WI9GyI+o/vk9sVdrJSWBmoyvX+ISCsMXuA9080r13vpapGDRuhXz/cIfbdu37R9OYw9uQ6OxkjPh0YEnh3UEpBIKbSFiFSilsI1Zk2mznRoMCDkTa3Xe8RK1Q4TEo99tuonXntKPa4ErKyA4Nsf+aBWMJcXwok7zFy4zgzQYtWoAmzQREIpOu3OD20BcNM61dQhpC9ziG50V9XXQRKyT7B7HLR0+HoSWl+nZz6UUd6tmqfbHctLVfeSDE7dFELvT8I5o/LOeT4bAhoqTMQr0baqXvLWNI+qD0YuVbzUeIhL3TzhpVYt61gUnniMsor4Eu0XvXkmjPJVXGEaDN5GxK7tuRbWvtSCIvIfnWcSKhtq4EEGH1IY1bozvOARBrrbaDcHEujkaGOx/KWR+ta3BzOAipl5R2kiN5tzbAAHkrO46Axq5WJsEbEEs90umrLEh+nn4ygcYd+anJdd3csw4Oa7IZqT6TxM0FVIOyfRPBDpXacZsFRSKJJUpp8mNBUTOc4SkCllCRuLHo7KcSXfid8urEOKgUiyCP+/T/V/qcFfrq4/d9hudV0q0NK+0XK7vQUVKuGAhxZ8tbsG58lscA77i/2r/cUy2v8+0BYLxX34JXbwvTqyzh5+ARgIX/bYBwAA</values>
+        <values>H4sIAAAAAAAA/+VVTW/bMAz9K4HOhiHFjtfk1rXoaW2BduilaQXZohNt8sckuW0W5L+PspwPdA3WAbsU803kI/X4RNL3a6IkmZGMAZ1MWVYkLEnGlI5PUpZnSc7GMhEAKYlILSpApBO5Bt4fIvIkdOeNL5xNpjTJJvy5Md9tyynPhQVuYKGsA4NQqWyrxepuiPiM7tHN3l0slZYGajK7f4hIKwxe4D2z9SvXe+lqkYNG6FfP9wh9t2rftH05jB1dBUdjpOdDIwIvDmoJSKQU2kJEKlFL4RqzIjNnOjQYEPK61qsdYqlqhwmJx75Y9ROvPaEeVwJWVkDw7Y58UCuYy3PhxC1mLlxnBmixbFQBNmgioRSddmeHtgC4bp1q6hDSlzlEN7qr6qsgCdkl2D4OWjp8PQmtr9MzH8oob5fN882W5YWqe0kGp24KoXcn4ZxReec8nzUBDRUm4pVoW1UveGuaJ9UHI5cqXmg8xKVunvFSqxZ1LApPPEZZRXyB9vPefCeM8lVcYhoM3kTEruyZFtbua0ER+Y/OMwmVDTXwIIMPKYxq3Sle8AQD3U20nQMJdHq0sVi+b6S+9e3BDKBiZt5Rmsj1+gwbwIHkLC46g1q5GFtELMBsNo9NWeLD9PNxFI6wb03Oy67uZRhw8+0QzclsHiboMqSdk2geiPSukwxYKikUSSrTT1OaiqmcZAnIlLKETUQPR+W4ku/Ebx6tQ4qBSPL7OP9fxf/lsvpzT22X1YUCLe0bTbbdVFChBA54aLpX22pwju4G57Cx2L/aWCyj/feB9lYo7sOvrYM/1JEF9vALgoxkn8oHAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=44fd09c2c3cd47904a9d563ed40131ea"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Available Capacity -= 1</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Link manager when registering a office base">b3ed09c2c3cd47904a9d563ed40131b4</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 23:16:20</sys_created_on>
+        <sys_id>77dc271ec3414b904a9d563ed40131fd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
+        <ui_id>a9794009-7830-4495-a87e-42526fb76386</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wf2ypukkL7tlEhTWIgwcQLQ9aN7YA1J85sp9BF/e+7SZxSAWJF4gWtb75fPufknvqmIUqQJUmkiOiCznlM43gWRbPjhGbzOKMzEYOUlIxJCYXESiu5sQLPa9B1G2iaEyvBS8HolNfWytJvt5gXylUaNtehDCP8XmmBebK8uR2TCixO9NKSZfMsdSgkDZnUWHo5YHqO0W+q9iwMrwvExdQQPAudq5AZfVthBptaODQaE/noZSkkAslBOzkmBZQCvLEbsvS2xgCSFhel3uwq7lXpe6IFPDr1B29OorYul8iMBxF2RxYE6sP5Cjxc4WTua7vTyyguXa+JkDnU2p/sx/qCi8orU/YtHjI9dBtdF+V5rwjZDdj7HrVDELJqebbIe1r51b15uBxAnqqykyRQ1IaD3p3Ae6uy2rdwGiK17DQuoKpUeccqa9aqa0YoxfRO42Gaa/OAdzp1V06Bt7inqCpMTzG+6sLXYFVL4juOwebtmLiNO9Hg3BMV1JD9rlskPbFAgXUqdBKwbhPaZm5V5b/gVWsZgG/HYemz9K0N44unhdqb+bT4j4ymiyiep+zB2F+uYhEzeY4fhGXg5EsHXHTJ0dc++T4zHAB1MMOPbgVehx788CJ2tt87Ou8TwQ3ph7nh+DO5IdD49Hb4lwmi2Zt/s3ub1O292zMArEHpbpU4VMCV3/ysoygWTZML5i2ULje2WMbtOEFhkid0MUkkTSeLNBGToyROZwD8iEbw2ovx0ePf57gDdBkcd6qkFu4VoQa7yQJ5ecl64Z5ZLiRH1yG5e4Q+zHd0HnW/T+S+/+Ytuv0LvWfazoIJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77dc271ec3414b904a9d563ed40131fd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Name &amp;&amp; Parent</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Link manager when registering a office base">b3ed09c2c3cd47904a9d563ed40131b4</flow>
         <generation_source/>
@@ -793,17 +889,17 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-26 23:16:20</sys_created_on>
-        <sys_id>77dc271ec3414b904a9d563ed40131fd</sys_id>
+        <sys_created_on>2026-05-28 16:52:03</sys_created_on>
+        <sys_id>de1824c3c3854f904a9d563ed401319b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 23:16:20</sys_updated_on>
-        <ui_id>a9794009-7830-4495-a87e-42526fb76386</ui_id>
+        <sys_updated_on>2026-05-28 16:52:03</sys_updated_on>
+        <ui_id>c31a370f-4308-421c-aaf1-1a1f795ea0f8</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wf2ypukkL7tlEhTWIgwcQLQ9aN7YA1J85sp9BF/e+7SZxSAWJF4gWtb75fPufknvqmIUqQJUmkiOiCznlM43gWRbPjhGbzOKMzEYOUlIxJCYXESiu5sQLPa9B1G2iaEyvBS8HolNfWytJvt5gXylUaNtehDCP8XmmBebK8uR2TCixO9NKSZfMsdSgkDZnUWHo5YHqO0W+q9iwMrwvExdQQPAudq5AZfVthBptaODQaE/noZSkkAslBOzkmBZQCvLEbsvS2xgCSFhel3uwq7lXpe6IFPDr1B29OorYul8iMBxF2RxYE6sP5Cjxc4WTua7vTyyguXa+JkDnU2p/sx/qCi8orU/YtHjI9dBtdF+V5rwjZDdj7HrVDELJqebbIe1r51b15uBxAnqqykyRQ1IaD3p3Ae6uy2rdwGiK17DQuoKpUeccqa9aqa0YoxfRO42Gaa/OAdzp1V06Bt7inqCpMTzG+6sLXYFVL4juOwebtmLiNO9Hg3BMV1JD9rlskPbFAgXUqdBKwbhPaZm5V5b/gVWsZgG/HYemz9K0N44unhdqb+bT4j4ymiyiep+zB2F+uYhEzeY4fhGXg5EsHXHTJ0dc++T4zHAB1MMOPbgVehx788CJ2tt87Ou8TwQ3ph7nh+DO5IdD49Hb4lwmi2Zt/s3ub1O292zMArEHpbpU4VMCV3/ysoygWTZML5i2ULje2WMbtOEFhkid0MUkkTSeLNBGToyROZwD8iEbw2ovx0ePf57gDdBkcd6qkFu4VoQa7yQJ5ecl64Z5ZLiRH1yG5e4Q+zHd0HnW/T+S+/+Ytuv0LvWfazoIJAAA=</values>
+        <values>H4sIAAAAAAAA/9VVTW/bMAz9K4au8wI7Tt0kPW0tusvaAuvQS90ZjEUnAmTZk+S0WZD/Psqy06AfWwfsUt9EPlLvkRR9u2WCszlLY4yOZnFaJHGSjKNoPJ3EizRZxGOeAOKEhUxBhYS0sJCYd4eQrUG2zmg2Jm8N6nyp67YhBxemkbC56f1fenOxEpJrVGx+exeyBjSlsajZfPvE9VZSEhYoCfrdsXqFpN00L9q+HsYGl95Ra+74RCHDB4uKIxEpQRoMWQWKg631hs2tbsmgEfiVkps9YiWUpYTMYR+M+EXXTiOHK5GUFeh9+2PeV8mbyzOwcE2ZC9vqHlqsalGg8TXhWEIr7emhzQOuGitq5UM6mX10LdtKXfqSsH2CoSlkoZ7lHBun0zHvZZTXq/r+28DyXKiuJL1T1gXI/Qms1WLRWsdny1BiRYnyCppGqGXe6HotumDiUo2Wkg6jUtb3dKkRSzWCwhEfUVlhdE72s858A1o4FReUhoJ3oZuvUwnGPGqhIuY/W8fEK+s15L4MLqTQorGf6II19nR34TDtHKPZq4MVLx4HqRtwczDpzp61UZTwkn/0dyD/QZNMl3v7NhumP2PzjH0Gg8EFKFiiNhkLM5+q802LOB1HBfGYzibHs2gCM36UJsgnUZzE6bSDu7cl+Bvxu+dv7x0w/se18PfuDWvhXKDk5oV2DjsBK5JtMfftfbIXemdw0zv73RD/r90Qp1H3vaMN4cW9+wVx8C94tiq8RG9znP3obP+IosHSgQNeld2vLvAPKyh53lGnGizpNY2KVrtnN3LQ4EOHGh8Pb82fTjKlkfqrDvOdkAQDa+T7zux2u7vfxHeUYb0HAAA=</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77dc271ec3414b904a9d563ed40131fd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=de1824c3c3854f904a9d563ed401319b"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b3ed09c2c3cd47904a9d563ed40131b4"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b3ed09c2c3cd47904a9d563ed40131b4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b3ed09c2c3cd47904a9d563ed40131b4^sys_idNOT IN00ec671ec3414b904a9d563ed401311c,08fd09c2c3cd47904a9d563ed40131ed,44fd09c2c3cd47904a9d563ed40131ed,48ec671ec3414b904a9d563ed401311c,80fd09c2c3cd47904a9d563ed40131ed,c8fd09c2c3cd47904a9d563ed40131ed"/>

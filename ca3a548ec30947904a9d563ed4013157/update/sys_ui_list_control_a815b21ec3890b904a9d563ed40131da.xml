@@ -14,7 +14,7 @@
         <link_roles/>
         <list_edit_insert_row>false</list_edit_insert_row>
         <list_edit_ref_qual_tag/>
-        <list_edit_type/>
+        <list_edit_type>disabled</list_edit_type>
         <name>x_1590365_worksp_0_office_base</name>
         <new_condition><![CDATA[var answer;
 var availableCapacity = parent.available_capacity.toString();
@@ -44,7 +44,7 @@ answer;]]></new_condition>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a815b21ec3890b904a9d563ed40131da</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1590365_worksp_0_office_base</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
@@ -52,6 +52,6 @@ answer;]]></new_condition>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name>sys_ui_list_control_a815b21ec3890b904a9d563ed40131da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-27 13:30:47</sys_updated_on>
+        <sys_updated_on>2026-05-28 21:11:17</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

@@ -26,7 +26,8 @@
         <field>office_base</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>The list will be empty if you have already registered in one of the office bases, unless your previous request was rejected.&#13;
+</help_text>
         <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
@@ -74,7 +75,7 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
@@ -82,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-27 16:17:28</sys_created_on>
         <sys_id>8e9613e6c34d8b904a9d563ed4013133</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Office Base</sys_name>
         <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name>item_option_new_8e9613e6c34d8b904a9d563ed4013133</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-27 19:18:42</sys_updated_on>
+        <sys_updated_on>2026-05-28 12:34:18</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
