@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>manager</col_name_string>
+        <index_col_name element="manager" name="x_1590365_worksp_0_office_base">02ab9c42c34947904a9d563ed401318c</index_col_name>
+        <logical_table_name>x_1590365_worksp_0_office_base</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-05-29 15:08:00</sys_created_on>
+        <sys_id>c8e9d5d7c3c9cf904a9d563ed4013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1590365_worksp_0_office_base</sys_name>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>sys_index_x_1590365_worksp_0_office_base_manager</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-05-29 15:08:00</sys_updated_on>
+        <table display_value="Office Base" name="x_1590365_worksp_0_office_base">d28ad44ec3c547904a9d563ed401317d</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

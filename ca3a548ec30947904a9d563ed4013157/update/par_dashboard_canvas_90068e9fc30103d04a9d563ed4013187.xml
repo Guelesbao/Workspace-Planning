@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Scheduled Workspace Planning Dashboard">dc060a9fc30103d04a9d563ed40131a7</dashboard>
+        <dashboard_tab display_value="New Tab 2">d4068e9fc30103d04a9d563ed4013175</dashboard_tab>
+        <layout>[{"sys_id":"32d70edfc30103d04a9d563ed40131a5","x":0,"y":0,"w":48,"h":20,"name":"List of participants pending approval at the base","component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"x_1590365_worksp_0_base_register\",\"columnPreferenceKey\":\"\",\"fixedQuery\":\"\",\"followFilters\":true,\"listTitle\":\"Approved Registrants - Full Capacity Office Bases\",\"columns\":\"number,user,job_function,office_base,sys_created_on\",\"maxColumns\":5,\"query\":\"state=3^office_base.available_capacity=0^office_base.managerDYNAMIC90d1921e5f510100a9ad2572f2b477fe\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"showBorder\":false,\"bare\":true,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"nrlLandmark\":true,\"wordWrap\":false,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":false,\"hideDotwalk\":false,\"hideColumnReorder\":false,\"hideRowSelector\":false,\"hideColumnGrouping\":false,\"hideColumnResizing\":false,\"hideColumnFiltering\":false,\"hideColumnSorting\":false,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":false,\"isDashboard\":true,\"id\":\"query\",\"value\":\"state=3^office_base.available_capacity=0^office_base.managerDYNAMIC90d1921e5f510100a9ad2572f2b477fe\",\"noDebounce\":true,\"propLabel\":\"filter\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-29 18:20:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90068e9fc30103d04a9d563ed4013187</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
+        <sys_update_name>par_dashboard_canvas_90068e9fc30103d04a9d563ed4013187</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-29 18:53:10</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

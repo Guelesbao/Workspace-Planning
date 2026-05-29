@@ -14,19 +14,21 @@
 	if (isLoading || newValue === '') {
 		return;
 	}
-	var lowerCaseText = newValue.trim().toLowerCase();
+	var textWithoutNumbers = newValue.replace(/\d/g, '');
 
-	var titleCase = lowerCaseText.replace(/(?:^|\s|-)\S/g, function (match) {
-		return match.toUpperCase();
-	});
+    var lowerCaseText = textWithoutNumbers.trim().toLowerCase();
 
-	var formattedValue = titleCase.replace(/\b(De|Da|Do|Das|Dos)\b/g, function (match) {
-		return match.toLowerCase();
-	});
+    var titleCase = lowerCaseText.replace(/(?:^|\s|-)\S/g, function (match) {
+        return match.toUpperCase();
+    });
 
-	if (formattedValue !== newValue) {
-		g_form.setValue('city', formattedValue);
-	}
+    var formattedValue = titleCase.replace(/\b(De|Da|Do|Das|Dos)\b/g, function (match) {
+        return match.toLowerCase();
+    });
+
+    if (formattedValue !== newValue) {
+        g_form.setValue('city', formattedValue);
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -34,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>022e92dec3c50b904a9d563ed401318b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Regex city field</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workspace Planning" source="x_1590365_worksp_0">ca3a548ec30947904a9d563ed4013157</sys_package>
@@ -42,7 +44,7 @@
         <sys_scope display_value="Workspace Planning">ca3a548ec30947904a9d563ed4013157</sys_scope>
         <sys_update_name>sys_script_client_022e92dec3c50b904a9d563ed401318b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 17:43:04</sys_updated_on>
+        <sys_updated_on>2026-05-29 17:21:55</sys_updated_on>
         <table>x_1590365_worksp_0_office_base</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
